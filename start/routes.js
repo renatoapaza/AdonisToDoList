@@ -27,3 +27,4 @@ Route.get('tasks/:id', 'TaskController.details');
 Route.get('tasks/edit/:id', 'TaskController.edit');
 Route.put('tasks/:id', 'TaskController.update');
 
+Route.delete('tasks/:id', 'TaskController.delete');
